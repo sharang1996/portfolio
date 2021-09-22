@@ -47,10 +47,21 @@ const Sidebar = () => {
       >
         <div className="flex items-center justify-center space-x-2 ">
           <GoLocation />
-          <span>Manchester, England</span>
+          <span>
+            <a href="http://maps.google.com/maps?q=X1+Media+City+Tower/@53.4741028,-2.2927582,19z/">
+              Manchester, England
+            </a>
+          </span>
         </div>
-        <p className="my-2">sharanggupta1996@gmail.com</p>
-        <p className="my-2">(+44)7385890562</p>
+
+        <p className="my-2">
+          <a href="mailto:sharanggupta1996@gmail.com?subject=Contacting you from your resume online!">
+            sharanggupta1996@gmail.com
+          </a>
+        </p>
+        <p className="my-2">
+          <a href="tel:+447385890562">(+44)7385890562</a>
+        </p>
       </div>
       <button
         className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400 focus:outline-none"
