@@ -9,11 +9,13 @@ const index = ({}) => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        I am currently working as a software developer at The Hut Group in
-        Manchester. I have completed my Master&apos;s degree in Computer Science
-        from University of Southampton, and have a cumulative work experience of
-        roughly 3 years, ranging from small startups to Fortune 500 companies. I
-        also take up freelance projects occasionally.
+        I am currently working as a software developer at{" "}
+        <span className="font-bold">The Hut Group</span> in Manchester. I have
+        completed my Master&apos;s degree in Computer Science from{" "}
+        <span className="font-bold">University of Southampton</span>, and have a
+        cumulative work experience of over 3 years, ranging from small startups
+        to Fortune 500 companies. I also take up freelance projects
+        occasionally.
       </h5>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400"

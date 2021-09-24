@@ -1,6 +1,8 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { FaServer, FaPython } from "react-icons/fa";
+import { AiOutlineApi } from "react-icons/ai";
+import { BsCloud } from "react-icons/bs";
+
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, IService, Skill } from "./types";
 
@@ -11,36 +13,36 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>  and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "Backend Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "I can create and manage backend servers and databases using <b>Express </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop a robust REST API using <b>Flask</b> or <b>NodeJs</b> ",
+  },
+  {
+    Icon: BsCloud,
+    title: "Cloud Computing",
+    about:
+      "I can advise on various cloud service providers like <b>AWS</b> or <b>GCP</b> and offer an optimised solution ",
+  },
+  {
+    Icon: FaPython,
+    title: "Scripting",
+    about:
+      "I can create python scripts for any use case, and set them up for periodic invocation ",
   },
   {
     Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
-  {
-    Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
-    about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
-  },
-  {
-    Icon: RiComputerLine,
-    title: "Whatever",
-    about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+    title: "Mobile Application Development",
+    about: "I can create an andriod application based on the requirements ",
   },
 ];
 
