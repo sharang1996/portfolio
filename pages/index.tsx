@@ -22,7 +22,10 @@ const index = ({}) => {
         <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
         <div className="grid gap-6 lg:grid-cols-2">
           {services.map((service) => (
-            <div className="bg-gray-200 rounded-lg lg:col-span-1">
+            <div
+              className="bg-gray-200 rounded-lg lg:col-span-1"
+              key={service.title}
+            >
               <ServiceCard service={service} />
             </div>
           ))}
