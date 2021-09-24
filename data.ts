@@ -37,12 +37,13 @@ export const services: IService[] = [
     Icon: FaPython,
     title: "Scripting",
     about:
-      "I can create python scripts for any use case, and set them up for periodic invocation ",
+      "I can create <b>python scripts</b> for any use case, and set them up for periodic invocation ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Mobile Application Development",
-    about: "I can create an andriod application based on the requirements ",
+    about:
+      "I can create an <b>andriod</b> application based on the requirements ",
   },
 ];
 
