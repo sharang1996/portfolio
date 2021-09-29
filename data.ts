@@ -4,7 +4,7 @@ import { AiOutlineApi } from "react-icons/ai";
 import { BsCloud } from "react-icons/bs";
 
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, IService, Skill } from "./types";
+import { IProject, IService, ISkill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -13,7 +13,7 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>  and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
@@ -47,59 +47,59 @@ export const services: IService[] = [
   },
 ];
 
-export const languages: Skill[] = [
+export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "85%",
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "80",
+    name: "JavaScript",
+    level: "60%",
   },
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70",
+    level: "65%",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Flask",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "CSS",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Cloud Computing",
+    level: "70%",
   },
 ];
 
-export const tools: Skill[] = [
+export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "Git",
+    level: "85%",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    name: "Linux",
+    level: "45%",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "VSCode",
+    level: "60%",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "Postman",
+    level: "45%",
   },
 ];
 

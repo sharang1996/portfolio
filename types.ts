@@ -7,7 +7,7 @@ export interface IService {
   about: string;
 }
 
-export interface Skill {
+export interface ISkill {
   Icon: IconType;
   name: string;
   level: string;
