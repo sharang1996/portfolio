@@ -165,7 +165,7 @@ export const projects: IProject[] = [
     github_url: "https://github.com/sharang1996/parivahan_scraper",
     category: ["Web-Scraping"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
+      "A web scraper to obtain registration details from license plates using a captcha service",
     key_techs: ["python"],
   },
 ];
