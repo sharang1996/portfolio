@@ -24,9 +24,11 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="all" {...props} />
       <NavItem value="Frontend" {...props} />
       <NavItem value="FullStack" {...props} />
-      <NavItem value="Machine Learning" {...props} />
-      <NavItem value="Data Science" {...props} />
-      <NavItem value="Web-Scraping" {...props} />
+      <NavItem value="ML" {...props} />
+      <NavItem value="DS" {...props} />
+      <NavItem value="Scraping" {...props} />
+      <NavItem value="Mobile" {...props} />
+      <NavItem value="Desktop" {...props} />
     </div>
   );
 };

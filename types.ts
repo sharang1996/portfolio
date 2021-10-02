@@ -29,8 +29,10 @@ export type Category =
   | "python"
   | "flask"
   | "mongo"
+  | "Desktop"
   | "Frontend"
   | "FullStack"
-  | "Machine Learning"
-  | "Data Science"
-  | "Web-Scraping";
+  | "ML"
+  | "DS"
+  | "Mobile"
+  | "Scraping";

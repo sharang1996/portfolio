@@ -120,7 +120,7 @@ export const projects: IProject[] = [
     image_path: "/images/heart_disease.png",
     deployed_url: "https://github.com/sharang1996/heart_disease_predict",
     github_url: "https://github.com/sharang1996/heart_disease_predict",
-    category: ["Machine Learning"],
+    category: ["ML"],
     description:
       "An analysis of the features and algorithms we can use to predict heart diseases",
     key_techs: ["Python", "pandas", "sklearn"],
@@ -131,7 +131,7 @@ export const projects: IProject[] = [
     image_path: "/images/mediaeval.jpeg",
     deployed_url: "https://github.com/sharang1996/mediaeval",
     github_url: "https://github.com/sharang1996/mediaeval",
-    category: ["Machine Learning", "Data Science"],
+    category: ["ML", "DS"],
     description:
       "An analysis using machine learning and NLP to help in fake news detection",
     key_techs: ["Python", "pandas", "sklearn"],
@@ -163,9 +163,87 @@ export const projects: IProject[] = [
     image_path: "/images/parivahan.jpeg",
     deployed_url: "https://parivahan.gov.in/parivahan/",
     github_url: "https://github.com/sharang1996/parivahan_scraper",
-    category: ["Web-Scraping"],
+    category: ["Scraping"],
     description:
       "A web scraper to obtain registration details from license plates using a captcha service",
     key_techs: ["python"],
+  },
+  {
+    name: "Tindog",
+    image_path: "/images/tindog.jpeg",
+    deployed_url: "https://sharang1996.github.io/tindog/index.html",
+    github_url: "https://github.com/sharang1996/tindog",
+    category: ["Frontend"],
+    description: "A web page for a fictious website mimicking tinder for dogs",
+    key_techs: ["CSS"],
+  },
+  {
+    name: "Omnifood",
+    image_path: "/images/omnifood.jpeg",
+    deployed_url: "https://sharang1996.github.io/omnifood/",
+    github_url: "https://github.com/sharang1996/omnifood",
+    category: ["Frontend"],
+    description:
+      "A web page for a fictious website mimicking a food ordering service",
+    key_techs: ["CSS"],
+  },
+  {
+    name: "Trillo",
+    image_path: "/images/trillo.jpeg",
+    deployed_url: "https://sharang1996.github.io/Trillo/index.html",
+    github_url: "https://github.com/sharang1996/Trillo",
+    category: ["Frontend"],
+    description:
+      "A CSS Flexbox based web page for a fictious website mimicking a holiday booking service",
+    key_techs: ["CSS"],
+  },
+  {
+    name: "Nexter",
+    image_path: "/images/nexter.jpeg",
+    deployed_url: "https://sharang1996.github.io/Nexter/index.html",
+    github_url: "https://github.com/sharang1996/Nexter",
+    category: ["Frontend"],
+    description:
+      "A CSS Grid based web page for a fictious website mimicking a housing site",
+    key_techs: ["CSS"],
+  },
+  {
+    name: "Fishing Fleet",
+    image_path: "/images/fishing_fleet.jpeg",
+    deployed_url: "https://github.com/sharang1996/fishing_fleet",
+    github_url: "https://github.com/sharang1996/fishing_fleet",
+    category: ["DS"],
+    description:
+      "data and python code for analysis of hypothetical fishing fleet, coursework from UoS",
+    key_techs: ["Data Science"],
+  },
+  {
+    name: "WheresMyMoney",
+    image_path: "/images/wheresmymoney.jpeg",
+    deployed_url: "https://github.com/sharang1996/WheresMyMoney",
+    github_url: "https://github.com/sharang1996/WheresMyMoney",
+    category: ["Mobile"],
+    description: "A money tracking application with a Firebase backend",
+    key_techs: ["Android"],
+  },
+  {
+    name: "A-Mazing",
+    image_path: "/images/amazing.jpeg",
+    deployed_url: "https://github.com/sharang1996/Amazing",
+    github_url: "https://github.com/sharang1996/Amazing",
+    category: ["Mobile"],
+    description:
+      "Treasure hunt game for college techfeast, using wifi hotspot ssids as clues",
+    key_techs: ["Android"],
+  },
+  {
+    name: "Blood bank management system",
+    image_path: "/images/bloodbank.jpeg",
+    deployed_url: "https://github.com/sharang1996/BloodBankManagementSystem",
+    github_url: "https://github.com/sharang1996/BloodBankManagementSystem",
+    category: ["Desktop"],
+    description:
+      "An application for registering blood group of doners and recipients",
+    key_techs: ["Java", "MySQL"],
   },
 ];
