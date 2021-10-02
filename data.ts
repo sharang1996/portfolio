@@ -13,19 +13,19 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b> and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>, <b>CSS</b> and <b>React</b> ",
   },
   {
     Icon: FaServer,
     title: "Backend Development",
     about:
-      "I can create and manage backend servers and databases using <b>Express </b> & other popular frameworks",
+      "I can create and manage backend servers and databases like <b>MongoDB</b> using <b>Flask</b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop a robust REST API using <b>Flask</b> or <b>NodeJs</b> ",
+      "I can develop a robust REST API using <b>Flask</b> or <b>Nodejs</b> ",
   },
   {
     Icon: BsCloud,
@@ -37,13 +37,13 @@ export const services: IService[] = [
     Icon: FaPython,
     title: "Scripting",
     about:
-      "I can create <b>python scripts</b> for any use case, and set them up for periodic invocation ",
+      "I can create <b>Python scripts</b> for any use case, and set them up for periodic invocation ",
   },
   {
     Icon: MdDeveloperMode,
     title: "Mobile Application Development",
     about:
-      "I can create an <b>andriod</b> application based on the requirements ",
+      "I can create an <b>Android</b> application based on the requirements ",
   },
 ];
 
@@ -166,7 +166,7 @@ export const projects: IProject[] = [
     category: ["Scraping"],
     description:
       "A web scraper to obtain registration details from license plates using a captcha service",
-    key_techs: ["python"],
+    key_techs: ["Python"],
   },
   {
     name: "Tindog",
