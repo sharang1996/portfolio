@@ -12,11 +12,13 @@ const Sidebar = () => {
   };
   return (
     <div>
-      <img
+      <Image
         src="/profilephoto.jpeg"
         alt="profile photo sharang"
         className="w-32 h-32 mx-auto rounded-full"
-      ></img>
+        width="100%"
+        height="100%"
+      ></Image>
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="text-green">Sharang </span>Gupta
       </h3>
