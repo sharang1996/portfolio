@@ -88,18 +88,18 @@ export const tools: ISkill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Test Driven Development",
+    name: "TDD",
     level: "45%",
   },
   {
     Icon: BsCircleFill,
-    name: "Agile Methodology",
+    name: "Agile",
     level: "30%",
   },
   {
     Icon: BsCircleFill,
     name: "Pair Programming",
-    level: "45%",
+    level: "55%",
   },
 ];
 
