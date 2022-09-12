@@ -26,11 +26,11 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Latest Work Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
-              Graduate Software Developer
+            Software Engineer - Java / Spring / Cloud
             </h5>
-            <p className="font-semibold">The Hut Group(2021-ongoing)</p>
+            <p className="font-semibold">JP Morgan Chase & Co(2022-ongoing)</p>
             <p className="my-3">
-              I am working with the logistics team as a full-stack developer.
+              I am working in the Corporate and Investment Banking Line of Business as a backend developer.
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@ const resume = () => {
         </div>
 
         <div>
-          <h5 className="my-3 text-2xl font-bold">Tools</h5>
+          <h5 className="my-3 text-2xl font-bold">Technical Inclinations</h5>
           <div className="my-2">
             {tools.map((tool) => (
               <Bar data={tool} key={tool.name} />
