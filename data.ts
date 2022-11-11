@@ -19,13 +19,13 @@ export const services: IService[] = [
     Icon: FaServer,
     title: "Backend Development",
     about:
-      "I can create and manage backend servers and databases like <b>MongoDB</b> using <b>Flask</b> & other popular frameworks",
+      "I can create and manage backend servers and databases like <b>MongoDB</b> using <b>Spring</b>, <b>Flask</b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
     title: "API Development",
     about:
-      "I can develop a robust REST API using <b>Flask</b> or <b>Nodejs</b> ",
+      "I can develop a robust REST API using <b>Flask</b>, <b>Spring</b> or <b>Nodejs</b> ",
   },
   {
     Icon: BsCloud,
@@ -50,56 +50,56 @@ export const services: IService[] = [
 export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
+    name: "Java",
+    level: "80%",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Python",
-    level: "85%",
+    level: "80%",
   },
   {
     Icon: BsCircleFill,
     name: "JavaScript",
-    level: "60%",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React",
-    level: "65%",
+    level: "50%",
   },
   {
     Icon: BsCircleFill,
     name: "Flask",
-    level: "80%",
+    level: "70%",
   },
   {
     Icon: BsCircleFill,
     name: "CSS",
-    level: "80%",
+    level: "70%",
   },
   {
     Icon: BsCircleFill,
-    name: "Cloud Computing",
-    level: "70%",
+    name: "React",
+    level: "45%",
   },
 ];
 
 export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
-    name: "Git",
+    name: "Cloud Computing",
     level: "85%",
   },
   {
     Icon: BsCircleFill,
-    name: "Linux",
+    name: "TDD",
     level: "45%",
   },
   {
     Icon: BsCircleFill,
-    name: "VSCode",
-    level: "60%",
+    name: "Agile",
+    level: "30%",
   },
   {
     Icon: BsCircleFill,
-    name: "Postman",
-    level: "45%",
+    name: "Pair Programming",
+    level: "55%",
   },
 ];
 

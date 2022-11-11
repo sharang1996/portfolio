@@ -55,8 +55,8 @@ const Sidebar = () => {
         <div className="flex items-center justify-center space-x-2 ">
           <GoLocation />
           <span>
-            <a href="http://maps.google.com/maps?q=X1+Media+City+Tower/@53.4741028,-2.2927582,19z/">
-              Manchester, England
+            <a href="https://goo.gl/maps/zUMstuncbeeR2iTY9">
+              Bournemouth, England
             </a>
           </span>
         </div>
@@ -67,7 +67,7 @@ const Sidebar = () => {
           </a>
         </p>
         <p className="my-2">
-          <a href="tel:+447354041636">(+44)7354041636</a>
+          <a href="tel:+447354041636">(+44) 07354041636</a>
         </p>
       </div>
       <button
