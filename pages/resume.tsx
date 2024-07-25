@@ -26,14 +26,28 @@ const resume = () => {
           <h5 className="my-3 text-2xl font-bold">Latest Work Experience</h5>
           <div>
             <h5 className="my-2 text-xl font-bold">
-            Software Engineer - Java / Spring / Cloud
+            Software Engineer
             </h5>
-            <p className="font-semibold">JP Morgan Chase & Co(2022-ongoing)</p>
+            <p className="font-semibold">The Hut Group(2023-ongoing)</p>
             <p className="my-3">
-              I am working in the Corporate and Investment Banking Line of Business as a backend developer.
+              I am working in the product content team primarily as a backend developer.
             </p>
           </div>
         </div>
+
+        <div>
+          <h5 className="my-3 text-2xl font-bold">Past Work Experience</h5>
+          <div>
+            <h5 className="my-2 text-xl font-bold">
+            Software Engineer - Java / Spring / Cloud
+            </h5>
+            <p className="font-semibold">JP Morgan Chase & Co(2022-2023)</p>
+            <p className="my-3">
+              Worked in the Corporate and Investment Banking Line of Business as a backend developer.
+            </p>
+          </div>
+        </div>
+        
       </div>
 
       {/* Languages and Tools*/}
