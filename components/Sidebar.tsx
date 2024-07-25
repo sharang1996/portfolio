@@ -67,7 +67,7 @@ const Sidebar = () => {
           </a>
         </p>
         <p className="my-2">
-          <a href="tel:+447354041636">(+44) 07354041636</a>
+          <a href="tel:+447563566755">(+44) 07563566755</a>
         </p>
       </div>
       <button
