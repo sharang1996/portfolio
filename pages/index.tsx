@@ -9,8 +9,8 @@ const index = ({}) => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1">
       <h5 className="my-3 font-medium">
-        I am currently working as a software developer associate at{" "}
-        <span className="font-bold">JP Morgan Chase and Co</span> in Bournemouth. I have
+        I am currently working as a software developer at{" "}
+        <span className="font-bold">The Hut Group</span> in Bournemouth. I have
         completed my Master&apos;s degree in Computer Science from{" "}
         <span className="font-bold">University of Southampton</span>, and have a
         cumulative work experience of over 3 years, ranging from small startups
